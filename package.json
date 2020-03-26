@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "lodash": "^4.0",
-    "vl-ui-button": "^4.0.0"
+    "vl-ui-button": "^5.0.0"
   }
 }
