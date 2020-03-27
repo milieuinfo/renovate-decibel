@@ -2,7 +2,7 @@ module.exports = {
     "assignees": ["kevcraey"],
     "autodiscover": true,
     "autodiscoverFilter": "milieuinfo/webcomponent-vl-ui*",
-    "labels": ["dependencies", "renovate"],
+    "labels": ["dependencies", "renovate", "chore"],
     "lockFileMaintenance": { "enabled": true },
     "masterIssue": true,
     "masterIssueAutoclose": true,
