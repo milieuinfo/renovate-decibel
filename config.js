@@ -1,7 +1,7 @@
 module.exports = {
     "assignees": ["kevcraey"],
     "autodiscover": true,
-    "autodiscoverFilter": "milieuinfo/webcomponent-vl-ui*",
+    "autodiscoverFilter": "webcomponent([a-z]{2}|\-vl)",
     "enabledManagers": ["npm"],
     "labels": ["dependencies", "renovate", "chore"],
     "lockFileMaintenance": { "enabled": true },
@@ -10,7 +10,7 @@ module.exports = {
     "onboarding": false,
     "packageRules": [
         {
-            "updateTypes": ["minor", "patch"],
+            "updateTypes": ["minor", "patch", "pin"],
             "automerge": true,
             "requiredStatusChecks": null
         }
