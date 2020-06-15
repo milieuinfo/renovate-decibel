@@ -4,17 +4,17 @@ module.exports = {
     "autodiscoverFilter": "milieuinfo/webcomponent+(-vl-ui*|en-vl*)",
     "enabledManagers": ["npm"],
     "labels": ["dependencies", "renovate", "chore"],
-    "lockFileMaintenance": { "enabled": true },
     "masterIssue": true,
     "masterIssueAutoclose": true,
     "onboarding": false,
     "packageRules": [
         {
-            "updateTypes": ["minor", "patch", "pin"],
+            "updateTypes": ["minor", "patch"],
             "automerge": true,
             "requiredStatusChecks": null
         }
     ],
+    "rangeStrategy": "replace",
     "reviewers": ["coemans", "cambiph", "wautergu", "pascalriquier", "SanderKleykens", "Pieter-Beckers"]
 };
 
