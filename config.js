@@ -3,6 +3,7 @@ module.exports = {
     "autodiscover": true,
     "autodiscoverFilter": "milieuinfo/webcomponent+(-vl-ui*|en-vl*)",
     "enabledManagers": ["npm"],
+    "ignoreDeps": ["replace", "terser"],
     "labels": ["dependencies", "renovate", "chore"],
     "masterIssue": true,
     "masterIssueAutoclose": true,
