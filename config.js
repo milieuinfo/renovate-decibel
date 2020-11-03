@@ -5,6 +5,7 @@ module.exports = {
     "enabledManagers": ["npm"],
     "ignoreDeps": ["replace", "terser"],
     "labels": ["dependencies", "renovate", "chore"],
+    
     "masterIssue": true,
     "masterIssueAutoclose": true,
     "onboarding": false,
@@ -16,7 +17,7 @@ module.exports = {
         }
     ],
     "rangeStrategy": "replace",
-    "reviewers": ["coemans", "cambiph", "wautergu", "pascalriquier", "SanderKleykens", "Pieter-Beckers"]
+    "reviewers": ["coemans"]
 };
 
 
